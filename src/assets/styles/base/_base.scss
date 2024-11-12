@@ -1,0 +1,22 @@
+@use '@/assets/styles/abstracts/variables' as var;
+
+html,
+body {
+  background-color: var.$gray;
+  font-family: var.$font-family-base;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var.$gray-dark;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var.$gray-darker;
+  border-radius: 4px !important;
+}

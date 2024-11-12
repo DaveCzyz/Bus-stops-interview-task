@@ -1,0 +1,14 @@
+.cursor {
+
+  &-pointer {
+    cursor: pointer;
+  }
+
+  &-default {
+    cursor: default;
+  }
+
+  &-not-allowed {
+    cursor: not-allowed;
+  }
+}

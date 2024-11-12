@@ -1,0 +1,19 @@
+@use '@/assets/styles/abstracts/variables' as var;
+
+.nav {
+  .nav-item {
+    .nav-link {
+      color: var.$gray-dark;
+      transition: color 300ms ease;
+
+      &:hover {
+        color: var.$black;
+      }
+
+      &.active {
+        color: var.$black;
+        border-bottom: 2px solid var.$blue;
+      }
+    }
+  }
+}

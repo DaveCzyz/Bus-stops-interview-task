@@ -1,0 +1,38 @@
+$white: #FFFFFF;
+$black: #000;
+
+$gray-light: #F8F8FB;
+$gray: #F3F4F9;
+$gray-dark: #9A9DA4;
+$gray-darker: #63666E;
+
+$blue: #1952E1;
+$blue-dark: #1649CA;
+$blur-darker: #2E3E6E;
+
+$font-family-base: 'Inter', sans-serif;
+$font-weights: (
+  'light': 300,
+  'regular': 400,
+  'medium': 500,
+  'bold': 700
+);
+$font-size: (
+  'xs': 12px,
+  'sm': 14px,
+  'base': 16px,
+  'lg': 18px,
+  'xl': 20px,
+  '2xl': 24px,
+);
+
+$radius: 6px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

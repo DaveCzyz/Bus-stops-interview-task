@@ -1,0 +1,36 @@
+@use '@/assets/styles/abstracts/variables' as var;
+
+.card-empty {
+  max-height: 320px;
+}
+
+.card {
+  border: none;
+  max-height: 500px;
+
+  .card-subheader {
+    user-select: none;
+  }
+
+  .card-list {
+    overflow-x: auto;
+  }
+
+  .card-item {
+    cursor: pointer;
+    border-top: 1px solid var.$gray-light;
+
+    &:hover {
+      background-color: var.$gray-light;
+    }
+
+    &.active {
+      color: var.$blue;
+    }
+  }
+}
+
+.card-empty {
+  border: 2px dashed var.$gray-dark;
+  aspect-ratio: 2/1;
+}

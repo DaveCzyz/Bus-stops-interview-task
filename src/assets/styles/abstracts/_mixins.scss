@@ -1,0 +1,6 @@
+@use 'functions' as fn;
+
+@mixin font($size: 'base', $weight: 'regular') {
+  font-size: fn.font-size($size);
+  font-weight: fn.font-weight($weight);
+}

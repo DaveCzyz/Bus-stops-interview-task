@@ -1,0 +1,33 @@
+@use '@/assets/styles/abstracts' as *;
+
+html,
+body {
+  @include font('base', 'regular');
+}
+
+h1 {
+  @include font('2xl', 'bold');
+}
+
+h2 {
+  @include font('lg', 'medium');
+}
+
+h3 {
+  @include font('base', 'medium');
+}
+
+a {
+  @include font('base', 'light');
+  text-decoration: none;
+}
+
+span {
+  @include font('sm', 'regular');
+  color: $gray-darker;
+}
+
+input,
+label {
+  @include font('sm', 'regular');
+}

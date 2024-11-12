@@ -1,0 +1,13 @@
+@use 'variables' as var;
+
+@function font-size($size) {
+  @return map-get(var.$font-size, $size);
+}
+
+@function font-weight($weight) {
+  @return map-get(var.$font-weights, $weight);
+}
+
+@function breakpoint($point) {
+  @return map-get(var.$grid-breakpoints, $point);
+}

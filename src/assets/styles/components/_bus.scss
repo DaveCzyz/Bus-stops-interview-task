@@ -1,0 +1,17 @@
+@use '@/assets/styles/abstracts/variables' as var;
+
+.list-bus {
+
+  .item-bus {
+    background-color: var.$blue;
+    transition: background-color 300ms ease;
+
+    &:hover {
+      background-color: var.$blue-dark;
+    }
+
+    &.active {
+      background-color: var.$blur-darker;
+    }
+  }
+}
