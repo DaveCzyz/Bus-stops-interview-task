@@ -19,6 +19,10 @@ const routes: Array<RouteRecordRaw> = [
       title: 'Stops',
     },
   },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: to => ROUTE.home,
+  },
 ];
 
 const router = createRouter({
