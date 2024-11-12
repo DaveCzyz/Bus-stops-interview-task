@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isLoading" class="text-center">
+  <div v-if="isLoading" class="text-center pb-3">
     <div class="spinner-border" role="status">
       <span class="visually-hidden">Loading...</span>
     </div>
@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useStore } from 'vuex';
-import type { RootState } from '@types/store';
+import type { RootState } from 'types/store';
 
 const store = useStore<RootState>();
 
