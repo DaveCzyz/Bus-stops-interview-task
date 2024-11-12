@@ -21,7 +21,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/:pathMatch(.*)*',
-    redirect: to => ROUTE.home,
+    redirect: () => ROUTE.home,
   },
 ];
 
