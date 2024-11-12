@@ -27,7 +27,7 @@
 import { ORDER } from '@/enums';
 import { computed, ref } from 'vue';
 import { useStore } from 'vuex';
-import { RootState } from '@types/store';
+import { RootState } from 'types/store';
 import ResourceLoader from '@/components/ResourceLoader.vue';
 import CardWrapper from '@/components/card/CardWrapper.vue';
 import CardHeader from '@/components/card/CardHeader.vue';

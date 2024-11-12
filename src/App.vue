@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import { useStore } from 'vuex';
-import ListNavigation from '@/components/list/ListNavigation.vue';
+import ListNavigation from '@/components/NavigationComponent.vue';
 
 onMounted(async () => {
   const store = useStore();

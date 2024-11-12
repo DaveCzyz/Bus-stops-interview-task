@@ -10,14 +10,14 @@ export default {
         deps: {
             optimizer: {
                 web: {
-                    include: ['vuex', 'vue-router']
-                }
-            }
-        }
+                    include: ['vuex', 'vue-router'],
+                },
+            },
+        },
     },
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, './src')
+            '@': path.resolve(__dirname, './src'),
         },
     },
-}
+};

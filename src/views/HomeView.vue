@@ -13,10 +13,10 @@
 </template>
 
 <script setup lang="ts">
-import ListBus from '@/components/list/ListBus.vue';
+import ListBus from '@/components/BusComponent.vue';
 import ResourceLoader from '@/components/ResourceLoader.vue';
 import CardWrapper from '@/components/card/CardWrapper.vue';
 import CardHeader from '@/components/card/CardHeader.vue';
-import ListLine from '@/components/list/ListLine.vue';
-import ListHour from '@/components/list/ListHour.vue';
+import ListLine from '@/components/LineComponent.vue';
+import ListHour from '@/components/TimeComponent.vue';
 </script>

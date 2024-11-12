@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { createStore } from 'vuex';
 import App from '@/App.vue';
-import ListNavigation from '@/components/list/ListNavigation.vue';
+import ListNavigation from '../components/NavigationComponent.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 // @ts-ignore
 import { mount } from '@vue/test-utils';
