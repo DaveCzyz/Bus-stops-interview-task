@@ -6,6 +6,7 @@
 - Clear selected line clicking 'Escape'
 - Page is responsive
 - .ENV file is added
+- Additional packages for unit test
 
 ## How to run project
 1. `git clone https://github.com/DaveCzyz/Bus-stops-interview-task.git`
