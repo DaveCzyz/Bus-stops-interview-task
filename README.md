@@ -2,9 +2,9 @@
 
 ## Project description
 - Project structure: Flat Approach
-- Styles structure: 7-1 patter
+- Styles structure: 7-1 pattern
 - Clear selected line clicking 'Escape'
-- Page is resposive
+- Page is responsive
 - .ENV file is added
 
 ## How to run project
